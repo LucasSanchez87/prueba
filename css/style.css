@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62, 5%;
+  font-family: "Krub", sans-serif;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a:hover {
+  color: black;
+}
+
+h1, h2, h4 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  margin-right: 80px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0;
+  background-color: red;
+  margin-top: 30px;
+}
+
+.redes {
+  margin: 10px;
+  display: flex;
+}
+.redes img {
+  width: 50px;
+  height: 50px;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+}
+
+.funkos, .hottoys, .ropa {
+  margin: 80px;
+}
+
+@media (min-width: 760px) {
+  .fase1, .fase2, .fase3, .fase4,
+.fox, .sony, .juegos, .disneyplus, .netflix, .otras, .comics, .funkos,
+.hottoys, .ropa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+@media (min-width: 980px) {
+  img {
+    width: 250px;
+    height: 200px;
+  }
+  .fase1, .fase2, .fase3, .fase4,
+.fox, .sony, .juegos, .disneyplus, .netflix, .otras, .comics, .funkos,
+.hottoys, .ropa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+}
+header {
+  background-color: red;
+  padding: 10px;
+  font-weight: bold;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+.portada {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.portada img {
+  width: 600px;
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */
